@@ -1,0 +1,163 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.navi{
+    position: sticky !important;
+}
+.navbar-brand img{
+    width: 125px;
+    padding: 3% 8% 2% 10%;
+    border-radius: 20px;
+}
+
+.nav-item{
+    padding: 0  50px;
+}
+
+.nav-link{
+    font-size: 2rem;
+}
+
+/* .heading{
+    padding: 10rem 0rem;
+}
+h1{
+    color: rgb(20,154,238);
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+.head-para{
+    line-height: 1.5;
+    color: #e65500;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.home-icons{
+    margin-top:100px ;
+}
+.header-image{
+    height: 90%;
+    width: 100%;
+} */
+
+#carousel{
+    padding: 50px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+h3{
+    padding-top: 50px;
+    color: red;
+    text-align: center;
+}
+.product-container{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.product-box{
+    padding: 3% 2%;
+    
+}
+.product-box img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.card-img-top{
+    height: auto!important;
+    text-align: left;
+    width: 100%!important;
+}
+.card-body{
+    text-align: center;
+}
+.card-body p{
+    text-align: left;
+}
+.card-body a{
+    margin-top: 30px ;
+}
+
+.offer{
+    text-align: center;
+}
+.left-text{
+    width: 300px;
+    display: inline;
+}
+.rightimg{
+    float: right;
+    top: 0px;
+    position: relative;
+    display: block;
+    width: 50%;
+    
+}
+.float-image{
+    height: 30%;
+    width: 200px;
+}
+p{
+    margin: 0 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.offer-button{
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.offer-button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon{
+    padding: 7% 4%;
+    font-size: 3rem;
+    color: green;
+}
+.footer-icon:hover{
+    color:#000;
+}
+
+.footer-p{
+    font-family: "Montserrat";
+    color: #fff;
+    width: 300px;
+    margin-left: 35%;
+}
+
+@media (max-width: 1065px) {
+    h1{
+        font-family: 'Yellowtail', cursive;
+    }     
+    .head-para{
+        margin: 0;
+    }
+    
+    .card{
+        margin: 30px;
+    }
+    .footer-p{
+        margin-left: 10%;
+    }
+}
